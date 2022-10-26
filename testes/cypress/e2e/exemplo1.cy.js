@@ -13,7 +13,7 @@ describe('Criando cenário de teste para o site globalsqa', ()=> {
     cy.get('.btn-primary').click()
     cy.get('.ng-binding').should('contain.text','Registration successful' )
   })
-
+  
   it('Caso de teste: Registrando um usuário com falha (faltando senha)', () => {
 
     cy.visit('https://globalsqa.com/angularJs-protractor/registration-login-example/#/register')

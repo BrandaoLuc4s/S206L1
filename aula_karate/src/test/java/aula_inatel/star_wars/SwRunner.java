@@ -2,10 +2,10 @@ package aula_inatel.star_wars;
 
 import com.intuit.karate.junit5.Karate;
 
-class UsersRunner {
+class SwRunner {
     
     @Karate.Test
-    Karate testUsers() {
+    Karate teststar_wars() {
         return Karate.run("star_wars").relativeTo(getClass());
     }    
 
